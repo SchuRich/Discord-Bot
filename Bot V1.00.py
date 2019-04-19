@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+import Halp_py_test
 
 dwacription = "test"
 
@@ -26,70 +27,105 @@ async def on_command_error(ctx, error):
         print("Command Error Ignored")
         return
 
-
+#Seek 0 Halp
 @bot.command()
 async def Halp(ctx):
-    await ctx.send(
-        "1-> !Commands_Info **X**\n"
-        "2-> !Game_Info\n"
-        "3-> !Update_Info\n"
-        "4-> !Staff_Info\n"
-        "5-> !Servers_List **X**\n"
-        "6-> !Quest_Info **X**\n"
-        "7-> !Brutals_Info **X**\n"
-        "8-> !Might_Info **X**\n"
-        "9-> !Reborn_Info **X**\n"
-        "10-> !Item_Info **X**")
+    await Halp_py_test.Halp(ctx)
 
-#Seek Commands Info
+#Seek 1 Links_Info
 @bot.command()
-async def Commands_Info(ctx):
-    await ctx.send("**__Commands__**")
+async def Links_Info(ctx):
+    await Halp_py_test.Links_Info(ctx)
 
-#Seek Game Info
+#Seek 2 Game_Info
 @bot.command()
 async def Game_Info(ctx):
-    await ctx.send(
-        "**__Developer__** --> Early Morning Studio\n"
-        "**__Publisher__** --> Early Morning Studio\n"
-        "**__Platforms__** --> Android / Apple\n"
-        "**__Release date__** --> September 8, 2018\n"
-        "**__Genre__** --> RPG\n"
-        "**__Mode__** --> Singleplayer (Offline) , Multiplayer\n\n"
-        "**__System requirements__**\n"
-        "__Android__ - 97 MB Storage space / Android 4.1+\n"
-        "__Apple__ - 468.9 MB Storage space / Requires iOS 10.0+ / Compatible with iPhone, iPad, and iPod touch.")
+    await Halp_py_test.Game_Info(ctx)
 
-#Seek Update Info
+#Seek 3 Update_Info
 @bot.command()
 async def Update_Info(ctx):
-    await ctx.send("__**Update 1.1.2**__\n"
-                   "- NG+\n"
-                   "- Stun in PvP now reduces focus instead of properly stunning in combo turns\n"
-                   "- Item Augmentation\n"
-                   "- Raised level cap to 75\n"
-                   "- Ability to remove bloodstones from items\n"
-                   "- Creature Lure potions available in stores\n"
-                   "- Removed Armor Cap\n"
-                   "- Less effect from bloodstones for stun, block chance, crit. dmg and crit. hit\n"
-                   "- Displaying PvP-resilience values in PvP-menu\n"
-                   "- Added  shield block resilience in PvP\n"
-                   "- General bug fixes")
+    await Halp_py_test.Update_Info(ctx)
 
-#Seek Servers List
+#Seek 4 Staff_Info
 @bot.command()
-async def Servers_List(ctx):
-    await ctx.send("**__All Avaleable Discord Servers__**\n\n"
-                   "https://discord.gg/mjAYUTW\n"
-                   "https://discord.gg/RcRAMMp\n"
-                   "https://discord.gg/WHNWwM6\n"
-                   "https://discord.gg/yKvyuQa\n"
-                   "https://discord.gg/pg6ZW9b\n"
-                   "https://discord.gg/7NJXXky\n"
-                   "https://discord.gg/jSNd9fj\n"
-                   "https://discord.gg/7uQFa6q")
+async def Staff_Info(ctx):
+    await Halp_py_test.Staff_Info(ctx)
 
-#
+#Seek 5 Servers_Info
+@bot.command()
+async def Servers_Info(ctx):
+    await Halp_py_test.Servers_Info(ctx)
+
+
+#Seek 6 Quests_Info
+@bot.command()
+async def Quests_Info(ctx):
+    await Halp_py_test.Quests_Info(ctx)
+
+#Seek 7 Brutals_Info
+@bot.command()
+async def Brutals_Info(ctx):
+    await Halp_py_test.Brutals_Info(ctx)
+
+
+@bot.command()
+async def Brutals_Enigma(ctx):
+    await Halp_py_test.Brutals_Enigma(ctx)
+
+
+
+
+
+
+
+
+
+
+
+#Seek 8 Mights_Info
+@bot.command()
+async def Mights_Info(ctx):
+    await Halp_py_test.Mights_Info(ctx)
+
+#Seek 9 Reborn_Info
+@bot.command()
+async def Reborn_Info(ctx):
+    await Halp_py_test.Reborn_Info(ctx)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
