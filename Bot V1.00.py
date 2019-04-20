@@ -1,8 +1,8 @@
 import discord
 from discord.ext import commands
-import Halp_py_test
+import Halp_py
 
-dwacription = "test"
+description = "test"
 
 bot = commands.Bot(
     command_prefix='!',
@@ -30,53 +30,76 @@ async def on_command_error(ctx, error):
 #Seek 0 Halp
 @bot.command()
 async def Halp(ctx):
-    await Halp_py_test.Halp(ctx)
+    await Halp_py.Halp(ctx)
 
 #Seek 1 Links_Info
 @bot.command()
 async def Links_Info(ctx):
-    await Halp_py_test.Links_Info(ctx)
+    await Halp_py.Links_Info(ctx)
 
 #Seek 2 Game_Info
 @bot.command()
 async def Game_Info(ctx):
-    await Halp_py_test.Game_Info(ctx)
+    await Halp_py.Game_Info(ctx)
 
 #Seek 3 Update_Info
 @bot.command()
 async def Update_Info(ctx):
-    await Halp_py_test.Update_Info(ctx)
+    await Halp_py.Update_Info(ctx)
 
 #Seek 4 Staff_Info
 @bot.command()
 async def Staff_Info(ctx):
-    await Halp_py_test.Staff_Info(ctx)
+    await Halp_py.Staff_Info(ctx)
 
 #Seek 5 Servers_Info
 @bot.command()
 async def Servers_Info(ctx):
-    await Halp_py_test.Servers_Info(ctx)
+    await Halp_py.Servers_Info(ctx)
 
 
 #Seek 6 Quests_Info
 @bot.command()
 async def Quests_Info(ctx):
-    await Halp_py_test.Quests_Info(ctx)
+    await Halp_py.Quests_Info(ctx)
 
 #Seek 7 Brutals_Info
 @bot.command()
 async def Brutals_Info(ctx):
-    await Halp_py_test.Brutals_Info(ctx)
+    await Halp_py.Brutals_Info(ctx)
 
 
 @bot.command()
 async def Brutals_Enigma(ctx):
-    await Halp_py_test.Brutals_Enigma(ctx)
+    await Halp_py.Brutals_Enigma(ctx)
 
+@bot.command()
+async def Brutals_TuskTrio(ctx):
+    await Halp_py.Brutals_TuskTrio(ctx)
 
+@bot.command()
+async def Brutals_RatKing(ctx):
+    await Halp_py.Brutals_RatKing(ctx)
 
+@bot.command()
+async def Brutals_ABane(ctx):
+    await Halp_py.Brutals_ABane(ctx)
 
+@bot.command()
+async def Brutals_Xaph(ctx):
+    await Halp_py.Brutals_Xaph(ctx)
 
+@bot.command()
+async def Brutals_Lerna(ctx):
+    await Halp_py.Brutals_Lerna(ctx)
+
+@bot.command()
+async def Brutals_Styx(ctx):
+    await Halp_py.Brutals_Styx(ctx)
+
+@bot.command()
+async def Brutals_MotherOfWolfs(ctx):
+    await Halp_py.Brutals_MotherOfWolfs(ctx)
 
 
 
@@ -86,12 +109,13 @@ async def Brutals_Enigma(ctx):
 #Seek 8 Mights_Info
 @bot.command()
 async def Mights_Info(ctx):
-    await Halp_py_test.Mights_Info(ctx)
+    await Halp_py.Mights_Info(ctx)
 
 #Seek 9 Reborn_Info
 @bot.command()
 async def Reborn_Info(ctx):
-    await Halp_py_test.Reborn_Info(ctx)
+    await Halp_py.Reborn_Info(ctx)
+
 
 
 
