@@ -58,16 +58,34 @@ async def Servers_Info(ctx):
     await Halp_py.Servers_Info(ctx)
 
 
+
+
+
+#####
+
+
+
+
+
 #Seek 6 Quests_Info
 @bot.command()
 async def Quests_Info(ctx):
     await Halp_py.Quests_Info(ctx)
 
+
+
+
+
+#####
+
+
+
+
+
 #Seek 7 Brutals_Info
 @bot.command()
 async def Brutals_Info(ctx):
     await Halp_py.Brutals_Info(ctx)
-
 
 @bot.command()
 async def Brutals_Enigma(ctx):
@@ -105,11 +123,26 @@ async def Brutals_MotherOfWolfs(ctx):
 
 
 
+#####
+
+
+
+
 
 #Seek 8 Mights_Info
 @bot.command()
 async def Mights_Info(ctx):
     await Halp_py.Mights_Info(ctx)
+
+
+
+
+
+#####
+
+
+
+
 
 #Seek 9 Reborn_Info
 @bot.command()
@@ -120,7 +153,7 @@ async def Reborn_Info(ctx):
 
 
 
-
+#####
 
 
 
