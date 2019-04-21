@@ -116,9 +116,40 @@ async def Brutals_Styx(ctx):
     await Halp_py.Brutals_Styx(ctx)
 
 @bot.command()
+async def Brutals_SpiritBros(ctx):
+    await Halp_py.Brutals_SpiritBros(ctx)
+
+@bot.command()
 async def Brutals_MotherOfWolfs(ctx):
     await Halp_py.Brutals_MotherOfWolfs(ctx)
 
+@bot.command()
+async def Brutals_BeastOfValley(ctx):
+    await Halp_py.Brutals_BeastOfValley(ctx)
+
+@bot.command()
+async def Brutals_CaveDweller(ctx):
+    await Halp_py.Brutals_CaveDweller(ctx)
+
+@bot.command()
+async def Brutals_DeathsAdvocate(ctx):
+    await Halp_py.Brutals_DeathsAdvocate(ctx)
+
+@bot.command()
+async def Brutals_Fulacks(ctx):
+    await Halp_py.Brutals_Fulacks(ctx)
+
+@bot.command()
+async def Brutals_HunterKiller(ctx):
+    await Halp_py.Brutals_HunterKiller(ctx)
+
+@bot.command()
+async def Brutals_RatTree(ctx):
+    await Halp_py.Brutals_RatTree(ctx)
+
+@bot.command()
+async def Brutals_TheSeals(ctx):
+    await Halp_py.Brutals_TheSeals(ctx)
 
 
 
